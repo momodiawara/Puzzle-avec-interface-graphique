@@ -27,7 +27,7 @@ public class PuzzleGui extends JPanel{
 
 	public PuzzleGui(){
 		try{
-			image=ImageIO.read(new File("/home/momo/Téléchargements/Wife.jpeg"));
+			image=ImageIO.read(new File("/Image/moodle_logo.png"));
 		}catch(Exception e){
 			System.out.println(e.getMessage());	
 		}
